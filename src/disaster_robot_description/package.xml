@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="3">
+
+  <name>disaster_robot_description</name>
+  <version>0.0.1</version>
+
+  <description>
+    Robot description and visualization files for the Cloud Integrated
+    Multi-Robot Disaster Response System.
+  </description>
+
+  <maintainer email="vaishnavi@example.com">
+    Disaster Response Robot Team
+  </maintainer>
+
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
+</package>

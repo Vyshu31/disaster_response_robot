@@ -3,6 +3,13 @@
 <sdf version="1.9">
   <world name="disaster_world">
 
+  <!-- Gazebo Sensors System -->
+  <plugin
+    filename="gz-sim-sensors-system"
+    name="gz::sim::systems::Sensors">
+    <render_engine>ogre2</render_engine>
+  </plugin>
+
     <!-- Gravity -->
     <gravity>0 0 -9.81</gravity>
 

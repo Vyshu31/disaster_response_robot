@@ -3,18 +3,21 @@
 <sdf version="1.9">
   <world name="disaster_world">
 
-  <!-- Gazebo Sensors System -->
-  <plugin
-    filename="gz-sim-sensors-system"
-    name="gz::sim::systems::Sensors">
-    <render_engine>ogre2</render_engine>
-  </plugin>
-<plugin filename="gz-sim-imu-system" name="gz::sim::systems::Imu"/>
-  <!-- Gazebo Physics System -->
-  <plugin
-    filename="gz-sim-physics-system"
-    name="gz::sim::systems::Physics">
-  </plugin>
+<plugin
+  filename="gz-sim-sensors-system"
+  name="gz::sim::systems::Sensors">
+  <render_engine>ogre2</render_engine>
+</plugin>
+
+<plugin
+  filename="gz-sim-physics-system"
+  name="gz::sim::systems::Physics">
+</plugin>
+
+<plugin
+  filename="gz-sim-imu-system"
+  name="gz::sim::systems::Imu">
+</plugin>
 
   <!-- Gazebo Scene Broadcaster -->
   <plugin
